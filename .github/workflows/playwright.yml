@@ -1,0 +1,12 @@
+name: Platwright Tests
+on:
+  push:
+    branches: [main]
+jobs:
+  playwrighttest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: action/checkout@v2
+      - name: Say hello
+        run: echo Hello
