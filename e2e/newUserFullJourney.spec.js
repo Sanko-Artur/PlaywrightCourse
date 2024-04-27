@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 // import { v4 as uuidv4 } from 'uuid';
 
-import { ProductPage } from '../pageObjects/productPage';
+import { ProductPage } from './../pageObjects/ProductPage';
 import { NavBar } from '../pageObjects/NavBar';
 import { CheckoutPage } from '../pageObjects/CheckoutPage';
 import { LoginPage } from '../pageObjects/LoginPage';
